@@ -1,10 +1,14 @@
-<div class="home-container  ">
+<div class="home-container">
   <div class="Search-grid row pl-4 py-4">
-    <div class="input-group col-6 md-form form-sm form-1 pl-0">
+    <div class="input-group  col-12 col-lg-4 md-form form-sm form-1 pl-0">
       <div class="input-group-prepend">
-        <span class="matIconSearch input-group-text purple lighten-3" id="basic-text1"
-          ><mat-icon class="text-grey align-items-stretch" aria-hidden="true">search</mat-icon
-        ></span>
+        <span
+          class="matIconSearch input-group-text purple lighten-3"
+          id="basic-text1"
+          ><mat-icon class="col-12 col-lg-4 text-grey align-items-stretch" aria-hidden="true"
+            >search</mat-icon
+          ></span
+        >
       </div>
       <input
         class="searchBorder form-control my-0 py-1"
@@ -12,18 +16,18 @@
         placeholder="Search"
         aria-label="Search"
       />
+      <mat-icon class="matIconFilter">filter_alt</mat-icon>
     </div>
-    <mat-icon class="matIconFilter">filter_alt</mat-icon>
+    
   </div>
   <div class="NameUser pl-4"><h2>Hola, Jorge</h2></div>
   <div class="statistic row">
-    <div class="staticsPercent col-7 pl-3">soy una estadistica</div>
-    <div class="groupGoal col-4  pl-4">soy una meta</div>
+    <div class="staticsPercent col-10 col-lg-7 ml-4">soy una estadistica</div>
+    <div class="groupGoal col-12 col-lg-4 ml-4">soy una meta</div>
   </div>
-  <div class="Messages row">row</div>
 </div>
 
-<!-- <table>
+<!-- por implementar <table>
 <tr *ngFor="let agenda of conexionAgendToDay  | slice:0:10" (click)="onClickAgenda(agenda)">
 <td>{{agenda.name}}</td>
 </tr>    

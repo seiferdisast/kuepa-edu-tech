@@ -1,20 +1,32 @@
-  .app-container{
-    background-color: black;
-    display: flex;
-    height: 100%;
-  }
+.app-container {
+  background-color: #313448;
+  display: flex;
+  height: 100%;
+}
 
-  .left-container{
-    background-color: gray;
-    width: 60px;
-  }
+.left-container {
+  background-color: transparent;
+  width: 60px;
+}
 
-  .page-container{
-    background-color: white;
-    flex: 1;
-  }
+.page-container {
+  background-color: white;
+  flex: 1;
+}
 
-  .right-container{
-    background-color: aqua;
-    width: 80px;
-  }
+.right-container {
+  background-color: transparent;
+  width: 80px;
+}
+
+.logo {
+  margin-left: 13px;
+  margin-top: 20px;
+  width: 32px;
+}
+
+.icoHorientation {
+  color: coral;
+  margin-left: 16px;
+  margin-top: 20px;
+}
