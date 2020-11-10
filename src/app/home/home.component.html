@@ -1,1 +1,11 @@
-<p>home works!</p>
+<table>
+<tr *ngFor="let agenda of conexionAgendToDay  | slice:0:10" (click)="onClickAgenda(agenda)">
+<td>{{agenda.name}}</td>
+</tr>    
+</table>
+
+<h2>AgendaSelected</h2>
+<p> {{selectedAgenda | json}}</p>
+
+<h2>AgendaDetailSelected</h2>
+<p> {{selectedAgendaDetail | json}}</p>
