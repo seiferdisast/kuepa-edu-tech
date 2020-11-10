@@ -1,0 +1,20 @@
+  .app-container{
+    background-color: black;
+    display: flex;
+    height: 100%;
+  }
+
+  .left-container{
+    background-color: gray;
+    width: 60px;
+  }
+
+  .page-container{
+    background-color: red;
+    flex: 1;
+  }
+
+  .right-container{
+    background-color: aqua;
+    width: 80px;
+  }
