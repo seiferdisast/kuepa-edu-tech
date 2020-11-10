@@ -5,6 +5,30 @@
 .groupGoal{
     background-color: blueviolet;
 }
-.PrimaryBody {
-    display: flex;
-  }
+
+.home-container{
+    display: block;
+}
+
+.row{
+    margin: 0px;
+}
+
+.matIconFilter{
+    align-self: center;
+}
+
+.matIconSearch{
+    border: hidden;
+        background-color: #f3f9fb;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.searchBorder{
+    box-shadow: none;
+    border: hidden;
+    background-color: #f3f9fb;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
